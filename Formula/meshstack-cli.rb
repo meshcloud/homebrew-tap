@@ -7,23 +7,23 @@ class MeshstackCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.4.1/meshstack-cli_0.4.1_darwin_arm64.tar.gz"
-      sha256 "2ecb2746786d78c9f8c81fccb9f8314ec91b6b96afdf3a4a0efa6f4e26cd54e7"
+      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.5.0/meshstack-cli_0.5.0_darwin_arm64.tar.gz"
+      sha256 "06092b0ebc63580dba50deabc69296d9b7ad597f8204abe57113303b78fe81a5"
     end
     on_intel do
-      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.4.1/meshstack-cli_0.4.1_darwin_amd64.tar.gz"
-      sha256 "b5c7bf944786e0efe7c67cdc5e5f3636c03520833ee35c59d93fc9fc31ca9041"
+      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.5.0/meshstack-cli_0.5.0_darwin_amd64.tar.gz"
+      sha256 "d7d525a9c4d3c253c883d4375d5a4bec013e75989180fa06692d34e4b93210fe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.4.1/meshstack-cli_0.4.1_linux_arm64.tar.gz"
-      sha256 "73e8487504f97d29fecf08afd282294d066f368501b6e8f27c8baaed958ae7c3"
+      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.5.0/meshstack-cli_0.5.0_linux_arm64.tar.gz"
+      sha256 "0deda3d8d89fa1c55541369779d96cac476dc6e66b23397777bc9acb325d8c74"
     end
     on_intel do
-      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.4.1/meshstack-cli_0.4.1_linux_amd64.tar.gz"
-      sha256 "d739eb3c79346283829431839c878c38d3dbb9e022090516c41e5e74d6715f7f"
+      url "https://github.com/meshcloud/meshstack-cli/releases/download/v0.5.0/meshstack-cli_0.5.0_linux_amd64.tar.gz"
+      sha256 "001af4ec15d8c45dcde636abfab32d524ae7fd1f1b5eb8fef67e51ffcf8b53af"
     end
   end
 
